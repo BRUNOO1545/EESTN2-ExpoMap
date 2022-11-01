@@ -12,8 +12,8 @@
     <color name="colorFondo">#000</color>
     <color name="colorPrimario">#162B4E</color>
     <color name="colorPrimarioAlt">#162B4E</color>
-    <color name="colorSecundario">#162B4E</color>
-    <color name="colorSecundarioAlt">#162B4E</color>
+    <color name="colorSecundario">#3D96FC</color>
+    <color name="colorSecundarioAlt">#3D96FC</color>
     <color name="baseFuente">#FFF</color>
     <color name="baseRelleno">#000</color>
     <color name="baseBlanco">#FFF</color>
