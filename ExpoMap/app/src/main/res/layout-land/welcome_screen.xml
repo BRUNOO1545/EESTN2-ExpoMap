@@ -40,8 +40,9 @@
         android:layout_marginBottom="24dp"
         android:text="ELECTRONICA"
         android:textColor="@color/baseFuente"
-        app:layout_constraintBottom_toTopOf="@+id/btnGotoElectromecanica"
+        app:layout_constraintBottom_toTopOf="@+id/btnGotoMMobras"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -53,7 +54,8 @@
         android:textColor="@color/baseFuente"
         app:layout_constraintBottom_toTopOf="@+id/btnGotoInformatica"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toEndOf="@+id/btnGotoElectronica" />
 
     <Button
         android:id="@+id/btnGotoInformatica"
@@ -62,15 +64,16 @@
         android:layout_marginBottom="24dp"
         android:text="INFORMATICA"
         android:textColor="@color/baseFuente"
-        app:layout_constraintBottom_toTopOf="@+id/btnGotoMMobras"
+        app:layout_constraintBottom_toTopOf="@+id/btnGotoProgramacion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/btnGotoMMobras" />
 
     <Button
         android:id="@+id/btnGotoProgramacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="20dp"
         android:text="PROGRAMACION"
         android:textColor="@color/baseFuente"
         app:layout_constraintBottom_toTopOf="@+id/btnGotoMap"
@@ -86,6 +89,7 @@
         android:textColor="@color/baseFuente"
         app:layout_constraintBottom_toTopOf="@+id/btnGotoProgramacion"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
