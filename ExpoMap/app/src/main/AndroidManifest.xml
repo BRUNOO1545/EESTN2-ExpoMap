@@ -16,7 +16,7 @@
 
         <!-- Vincular clases de kotlin con activity's -->
         <activity
-            android:name=".welcomeScreen"
+            android:name=".bienvenida"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,11 +28,31 @@
         <activity
             android:name=".proyectosElectronica"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        </activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:name=".proyectosElectromecanica"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".proyectosInformatica"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".proyectosMMObras"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".proyectosProgramacion"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".mapaInteractivo"
+            android:exported="true">
         </activity>
     </application>
 

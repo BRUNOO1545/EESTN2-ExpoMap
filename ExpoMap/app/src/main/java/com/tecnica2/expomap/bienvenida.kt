@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class welcomeScreen : AppCompatActivity() {
+class bienvenida : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.welcome_screen)
+        setContentView(R.layout.bienvenida)
 
         //region variables de botones
 
@@ -25,38 +25,32 @@ class welcomeScreen : AppCompatActivity() {
 
         //ir a los proyectos de Electronica
         btnProyectosElectronica.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, proyectosElectronica::class.java))
         }
 
         //ir a los proyectos de Electromecanica
         btnProyectosElectromecanica.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, proyectosElectromecanica::class.java))
         }
 
         //ir a los proyectos de Informatica
         btnProyectosInformatica.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, proyectosInformatica::class.java))
         }
 
         //ir a los proyectos de MM obras
         btnProyectosMMobras.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, proyectosMMObras::class.java))
         }
 
         //ir a los proyectos de Programacion
         btnProyectosProgramacion.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, proyectosProgramacion::class.java))
         }
 
         //ir al mapa de la escuela
         btnMapa.setOnClickListener {
-            val startActElectronica = Intent(this, proyectosElectronica::class.java)
-            startActivity(startActElectronica)
+            startActivity(Intent(this, mapaInteractivo::class.java))
         }
 
         //endregion
