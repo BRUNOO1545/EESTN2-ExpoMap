@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores Default -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -8,14 +9,27 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- colores personalizados -->
+    <!-- Colores Personalizados -->
     <color name="colorFondo">#000</color>
     <color name="colorPrimario">#162B4E</color>
-    <color name="colorPrimarioAlt">#162B4E</color>
-    <color name="colorSecundario">#3D96FC</color>
-    <color name="colorSecundarioAlt">#3D96FC</color>
+    <color name="colorPrimarioAlt">#0C182B</color>
+    <color name="colorSecundario">#3179CC</color>
+    <color name="colorSecundarioAlt">#2763A8</color>
     <color name="baseFuente">#FFF</color>
     <color name="baseRelleno">#000</color>
     <color name="baseBlanco">#FFF</color>
     <color name="baseNegro">#000</color>
+
+    <!-- Colores Tecnicatura -->
+    <color name="colorElectronica">#218F26</color>
+    <color name="colorElectromecanica">#1C2A59</color>
+    <color name="colorInformatica">#2B66AB</color>
+    <color name="colorMMObras">#1C2A59</color>
+    <color name="colorProgramacion">#EB0095</color>
+
+    <color name="colorElectronicaAlt">#0F4512</color>
+    <color name="colorElectromecanicaAlt">#0C182B</color>
+    <color name="colorInformaticaAlt">#173659</color>
+    <color name="colorMMObrasAlt">#0C182B</color>
+    <color name="colorProgramacionAlt">#380023</color>
 </resources>
