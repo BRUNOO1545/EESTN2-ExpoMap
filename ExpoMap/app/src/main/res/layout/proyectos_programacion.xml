@@ -12,7 +12,7 @@
         android:shadowDx="3"
         android:shadowDy="3"
         android:shadowRadius="1"
-        android:text="PROYECTOS\nPROGRAMACION"
+        android:text="@string/txtTitleProyectosProgramacion"
         android:textAlignment="center"
         android:textColor="@color/baseFuente"
         android:textSize="30sp"

@@ -36,7 +36,7 @@ class mapaInteractivo : AppCompatActivity() {
     private inner class ScaleListener : SimpleOnScaleGestureListener() {
         override fun onScale(scaleGestureDetector: ScaleGestureDetector): Boolean {
             scaleFactor *= scaleGestureDetector.scaleFactor
-            scaleFactor = max(1.0f, min(scaleFactor, 5.0f))
+            scaleFactor = max(1.0f, min(scaleFactor, 3.0f))
             imageView.scaleX = scaleFactor
             imageView.scaleY = scaleFactor
             return true
