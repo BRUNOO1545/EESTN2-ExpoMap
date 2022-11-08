@@ -24,12 +24,12 @@
     <color name="colorElectronica">#218F26</color>
     <color name="colorElectromecanica">#1C2A59</color>
     <color name="colorInformatica">#2B66AB</color>
-    <color name="colorMMObras">#1C2A59</color>
+    <color name="colorMMObras">#C99212</color>
     <color name="colorProgramacion">#EB0095</color>
 
     <color name="colorElectronicaAlt">#0F4512</color>
     <color name="colorElectromecanicaAlt">#0C182B</color>
     <color name="colorInformaticaAlt">#173659</color>
-    <color name="colorMMObrasAlt">#0C182B</color>
+    <color name="colorMMObrasAlt">#8A640E</color>
     <color name="colorProgramacionAlt">#380023</color>
 </resources>
