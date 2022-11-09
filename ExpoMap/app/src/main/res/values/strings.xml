@@ -18,4 +18,11 @@
     <string name="txtButtonMMObras">MM OBRAS</string>
     <string name="txtButtonProgramacion">PROGRAMACION</string>
     <string name="txtButtonMapaInteractivo">MAPA</string>
+
+    <!-- Texto de proyectos -->
+    <string name="txtInfoProyectosElectronica"></string>
+    <string name="txtInfoProyectosElectromecanica"></string>
+    <string name="txtInfoProyectosInformatica"></string>
+    <string name="txtInfoProyectosMMObras"></string>
+    <string name="txtInfoProyectosProgramacion"></string>
 </resources>

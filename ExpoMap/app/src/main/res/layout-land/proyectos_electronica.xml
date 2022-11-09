@@ -27,8 +27,8 @@
 
     <!-- Contenido que se puede bajar -->
     <ScrollView
-        android:layout_width="358dp"
-        android:layout_height="545dp"
+        android:layout_width="670dp"
+        android:layout_height="277dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
