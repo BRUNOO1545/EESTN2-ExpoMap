@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default -->
+    <string name="app_name">Expo Map</string>
+
+    <!-- Titulos -->
+    <string name="txtTitleBienvenida">ExpoTec 2022</string>
+    <string name="txtTitleProyectosElectronica">PROYECTOS\nELECTRONICA</string>
+    <string name="txtTitleProyectosElectromecanica">PROYECTOS\nELECTROMECANICA</string>
+    <string name="txtTitleProyectosInformatica">PROYECTOS\nINFORMATICA</string>
+    <string name="txtTitleProyectosMMObras">PROYECTOS\nMM ORBAS</string>
+    <string name="txtTitleProyectosProgramacion">PROYECTOS\nPROGRAMACION</string>
+    <string name="txtTitleMapaProyectos">MAPA DE\nPROYECTOS</string>
+
+    <!-- Botones -->
+    <string name="txtButtonElectronica">ELECTRONICA</string>
+    <string name="txtButtonElectromecanica">ELECTROMECANICA</string>
+    <string name="txtButtonInformatica">INFORMATICA</string>
+    <string name="txtButtonMMObras">MM OBRAS</string>
+    <string name="txtButtonProgramacion">PROGRAMACION</string>
+    <string name="txtButtonMapaInteractivo">MAPA</string>
+
+    <!-- Texto de proyectos -->
+    <string name="txtInfoProyectosElectronica"></string>
+    <string name="txtInfoProyectosElectromecanica"></string>
+    <string name="txtInfoProyectosInformatica"></string>
+    <string name="txtInfoProyectosMMObras"></string>
+    <string name="txtInfoProyectosProgramacion"></string>
+</resources>
