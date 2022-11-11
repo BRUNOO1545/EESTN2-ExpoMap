@@ -1,8 +1,11 @@
 package com.tecnica2.expomap
 
 import android.content.Intent
+import android.opengl.Visibility
+import android.os.Build.VERSION
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 
 class bienvenida : AppCompatActivity() {
@@ -49,8 +52,16 @@ class bienvenida : AppCompatActivity() {
         }
 
         //ir al mapa de la escuela
-        btnMapa.setOnClickListener {
-            startActivity(Intent(this, mapaInteractivo::class.java))
+        if (VERSION.SDK_INT >= 24) {
+            btnMapa.visibility = View.VISIBLE
+
+            btnMapa.setOnClickListener {
+                startActivity(Intent(this, mapaInteractivo::class.java))
+            }
+        }
+        else {
+            //en caso de android viejo, quita el mapa para no crasheo
+            btnMapa.visibility = View.GONE
         }
 
         //endregion
