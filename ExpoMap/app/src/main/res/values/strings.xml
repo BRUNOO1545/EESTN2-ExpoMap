@@ -19,10 +19,14 @@
     <string name="txtButtonProgramacion">PROGRAMACION</string>
     <string name="txtButtonMapaInteractivo">MAPA</string>
 
+    <!-- Texto de proyectos
+    <string name="txtInfoProyectosElectronica">4to 1ra, 5to 1ra, 6to 1ra, 7mo 1ra</string>
+    <string name="txtInfoProyectosElectromecanica">4to 2da, 5to 2da, 5to 6ta, 6to 2da, 7mo 2da</string> -->
+
     <!-- Texto de proyectos -->
-    <string name="txtInfoProyectosElectronica"></string>
-    <string name="txtInfoProyectosElectromecanica"></string>
-    <string name="txtInfoProyectosInformatica"></string>
-    <string name="txtInfoProyectosMMObras"></string>
-    <string name="txtInfoProyectosProgramacion"></string>
+    <string name="txtInfoProyectosElectronica">Los proyectos a ver en la tecnicatura de Electronica son:\n\n4to\n</string>
+    <string name="txtInfoProyectosElectromecanica">Los proyectos a ver en la tecnicatura de Electromecanica son:\n\n4to\n-Mecanizado de moldes\n-Soldadora electrica por arco\n-Detector de polaridad\n-Piscina con autofiltrado y sistema de proteccion para niños y mascotas</string>
+    <string name="txtInfoProyectosInformatica">Los proyectos a ver en la tecnicatura de Informatica son:\n\n4to\n-Evaluacion de computadoras\n\n5to\n-Instalacion de red informatica\n\n6to\n-Instalacion de servidor\n\n7mo\n-App de interfaz de base de datos\n-Representacion de un piso tecnico</string>
+    <string name="txtInfoProyectosMMObras">Los proyectos a ver en la tecnicatura de Maestro Mayor de Obras son:\n\n4to\n-Replanteo de obras\n-Maquetas\n-Planos\n-Composicion de paredes\n\n5to\n-</string>
+    <string name="txtInfoProyectosProgramacion">Los proyectos a ver en la tecnicatura de Programacion son:\n\n5to\nCuento Interactivo\n\n6to\n-Diseño de paginas web\n\n7mo\n-Arcade\n-Pagina web de empresa\n-Aplicacion ExpoTec\n-Aplicacion Practicas profesionalizantes\n-Casino Virtual</string>
 </resources>
