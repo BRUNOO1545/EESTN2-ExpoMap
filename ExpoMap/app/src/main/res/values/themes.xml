@@ -1,0 +1,146 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema Default. -->
+    <style name="Theme.ExpoMap" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorPrimario</item>
+        <item name="colorPrimaryVariant">@color/colorPrimarioAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorSecundario</item>
+        <item name="colorSecondaryVariant">@color/colorSecundarioAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimario</item>
+        <item name="android:colorBackground">@color/colorFondo</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <!-- Tema electronica -->
+    <style name="Theme.electronica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorElectronica</item>
+        <item name="colorPrimaryVariant">@color/colorElectronicaAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorElectronica</item>
+        <item name="colorSecondaryVariant">@color/colorElectronicaAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorElectronica</item>
+        <item name="android:navigationBarColor">@color/colorElectronica</item>
+        <item name="android:colorBackground">@color/colorElectronicaAlt</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <!-- Tema electromecanica -->
+    <style name="Theme.electromecanica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorElectromecanica</item>
+        <item name="colorPrimaryVariant">@color/colorElectromecanicaAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorElectromecanica</item>
+        <item name="colorSecondaryVariant">@color/colorElectromecanicaAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorElectromecanica</item>
+        <item name="android:navigationBarColor">@color/colorElectromecanica</item>
+        <item name="android:colorBackground">@color/colorElectromecanicaAlt</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <!-- Tema informatica -->
+    <style name="Theme.informatica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorInformatica</item>
+        <item name="colorPrimaryVariant">@color/colorInformaticaAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorInformatica</item>
+        <item name="colorSecondaryVariant">@color/colorInformaticaAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorInformatica</item>
+        <item name="android:navigationBarColor">@color/colorInformatica</item>
+        <item name="android:colorBackground">@color/colorInformaticaAlt</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <!-- Tema mmobras -->
+    <style name="Theme.mmobras" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorMMObras</item>
+        <item name="colorPrimaryVariant">@color/colorMMObrasAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorMMObras</item>
+        <item name="colorSecondaryVariant">@color/colorMMObrasAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorMMObras</item>
+        <item name="android:navigationBarColor">@color/colorMMObras</item>
+        <item name="android:colorBackground">@color/colorMMObrasAlt</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <!-- Tema programacion -->
+    <style name="Theme.programacion" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- valores personalizados -->
+        <item name="colorPrimary">@color/colorProgramacion</item>
+        <item name="colorPrimaryVariant">@color/colorProgramacionAlt</item>
+        <item name="colorOnPrimary">@color/baseBlanco</item>
+        <item name="colorSecondary">@color/colorProgramacion</item>
+        <item name="colorSecondaryVariant">@color/colorProgramacionAlt</item>
+        <item name="colorOnSecondary">@color/baseNegro</item>
+
+        <!-- Tema transparente -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorProgramacion</item>
+        <item name="android:navigationBarColor">@color/colorProgramacion</item>
+        <item name="android:colorBackground">@color/colorProgramacionAlt</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+</resources>
