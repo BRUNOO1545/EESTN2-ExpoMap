@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 
 class bienvenida : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,8 @@ class bienvenida : AppCompatActivity() {
         val btnProyectosInformatica = findViewById<Button>(R.id.btnGotoInformatica)
         val btnProyectosMMobras = findViewById<Button>(R.id.btnGotoMMobras)
         val btnProyectosProgramacion = findViewById<Button>(R.id.btnGotoProgramacion)
-        val btnMapa = findViewById<Button>(R.id.btnGotoMap)
+        //val btnMapa = findViewById<Button>(R.id.btnGotoMap)
+        val btnMapa = findViewById<ImageView>(R.id.btnGotoMap)
 
         //endregion
 
