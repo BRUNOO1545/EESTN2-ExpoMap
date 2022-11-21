@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default -->
+    <string name="app_name">Expo Map</string>
+
+    <!-- Titulos -->
+    <string name="txtTitleBienvenida">ExpoTec 2022</string>
+    <string name="txtTitleProyectosElectronica">PROYECTOS\nELECTRONICA</string>
+    <string name="txtTitleProyectosElectromecanica">PROYECTOS\nELECTROMECANICA</string>
+    <string name="txtTitleProyectosInformatica">PROYECTOS\nINFORMATICA</string>
+    <string name="txtTitleProyectosMMObras">PROYECTOS\nMM ORBAS</string>
+    <string name="txtTitleProyectosProgramacion">PROYECTOS\nPROGRAMACION</string>
+    <string name="txtTitleMapaProyectos">MAPA DE\nPROYECTOS</string>
+    <string name="txtTitleAyudaMapa">GUIA</string>
+
+    <!-- Botones -->
+    <string name="txtButtonElectronica">ELECTRONICA</string>
+    <string name="txtButtonElectromecanica">ELECTROMECANICA</string>
+    <string name="txtButtonInformatica">INFORMATICA</string>
+    <string name="txtButtonMMObras">MM OBRAS</string>
+    <string name="txtButtonProgramacion">PROGRAMACION</string>
+    <string name="txtButtonMapaInteractivo">MAPA</string>
+
+    <!-- Ayuda Mapa -->
+    <string name="txtMapHelpElectronica">ZONA ELECTRONICA</string>
+    <string name="txtMapHelpElectromecanica">ZONA ELECTROMECANICA</string>
+    <string name="txtMapHelpInformatica">ZONA INFORMATICA</string>
+    <string name="txtMapHelpMMObras">ZONA MM OBRAS</string>
+    <string name="txtMapHelpProgramacion">ZONA PROGRAMACION</string>
+    <string name="txtMapHelpMapaInteractivo">ZONA MAPA</string>
+    <string name="txtMapHelpCicloBasico">ZONA CICLO BASICO</string>
+    <string name="txtMapHelpKiosco">KIOSCO</string>
+
+    <!-- Texto de proyectos
+    <string name="txtInfoProyectosElectronica">4to 1ra, 5to 1ra, 6to 1ra, 7mo 1ra</string>
+    <string name="txtInfoProyectosElectromecanica">4to 2da, 5to 2da, 5to 6ta, 6to 2da, 7mo 2da</string> -->
+
+    <!-- Texto de proyectos -->
+    <string name="txtInfoProyectosElectronica">Los proyectos a ver en la tecnicatura de Electronica son:\n\n4to\n</string>
+    <string name="txtInfoProyectosElectromecanica">Los proyectos a ver en la tecnicatura de Electromecanica son:\n\n4to\n-Mecanizado de moldes\n-Soldadora electrica por arco\n-Detector de polaridad\n-Piscina con autofiltrado y sistema de proteccion para niños y mascotas</string>
+    <string name="txtInfoProyectosInformatica">Los proyectos a ver en la tecnicatura de Informatica son:\n\n4to\n-Evaluacion de computadoras\n\n5to\n-Instalacion de red informatica\n\n6to\n-Instalacion de servidor\n\n7mo\n-App de interfaz de base de datos\n-Representacion de un piso tecnico</string>
+    <string name="txtInfoProyectosMMObras">Los proyectos a ver en la tecnicatura de Maestro Mayor de Obras son:\n\n4to\n-Replanteo de obras\n-Maquetas\n-Planos\n-Composicion de paredes\n\n5to\n-</string>
+    <string name="txtInfoProyectosProgramacion">Los proyectos a ver en la tecnicatura de Programacion son:\n\n5to\nCuento Interactivo\n\n6to\n-Diseño de paginas web\n\n7mo\n-Arcade\n-Pagina web de empresa\n-Aplicacion ExpoTec\n-Aplicacion Practicas profesionalizantes\n-Casino Virtual</string>
+</resources>
