@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimarioAlt"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Arrow -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageSheetArrow"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="2dp"
+                android:layout_weight="200"
+                app:srcCompat="@drawable/ic_sheet_arrow" />
+        </TableRow>
+
+        <!-- Espacio -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp"></Space>
+        </TableRow>
+
+        <!-- Titulo -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textviewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:textAlignment="center"
+                android:paddingTop="0dp"
+                android:text="@string/txtTitleAyudaMapa"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <!-- Espacio -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp"></Space>
+        </TableRow>
+
+        <!-- Kiosco -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageKiosco"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_kiosko" />
+
+            <TextView
+                android:id="@+id/textviewKiosco"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpKiosco"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Ciclo Basico -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageCicloBasico"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_ciclo_basico" />
+
+            <TextView
+                android:id="@+id/textviewCicloBasico"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpCicloBasico"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Electromecanica -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_electromecanica" />
+
+            <TextView
+                android:id="@+id/textviewElectromecacnica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpElectromecanica"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Electronica -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageElectronica"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_electronica" />
+
+            <TextView
+                android:id="@+id/textviewElectronica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpElectronica"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Informatica -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageInformatica"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_informatica" />
+
+            <TextView
+                android:id="@+id/textviewInformatica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpInformatica"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- MM Obras -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageMMObras"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_mmobras" />
+
+            <TextView
+                android:id="@+id/textviewMMObras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpMMObras"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Programacion -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageProgramacion"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="2dp"
+                app:srcCompat="@drawable/ic_programacion" />
+
+            <TextView
+                android:id="@+id/textviewProgramacion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:paddingLeft="18dp"
+                android:paddingTop="5dp"
+                android:text="@string/txtMapHelpProgramacion"
+                android:textAllCaps="false"
+                android:textColor="@color/baseFuente"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- Espacio -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"></Space>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
