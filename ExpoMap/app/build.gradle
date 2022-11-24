@@ -10,7 +10,10 @@ android {
         applicationId "com.tecnica2.expomap"
         minSdk 21
         targetSdk 32
-        versionCode 1
+
+        //Version de app
+        versionCode 3
+
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

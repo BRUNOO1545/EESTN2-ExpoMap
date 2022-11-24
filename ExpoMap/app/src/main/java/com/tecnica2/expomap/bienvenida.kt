@@ -53,6 +53,13 @@ class bienvenida : AppCompatActivity() {
         }
 
         //ir al mapa de la escuela
+
+        btnMapa.setOnClickListener {
+            startActivity(Intent(this, mapaInteractivo::class.java))
+        }
+
+        /*
+        En caso de no andar con versiones viejas (v24)
         if (VERSION.SDK_INT >= 24) {
             btnMapa.visibility = View.VISIBLE
 
@@ -63,7 +70,7 @@ class bienvenida : AppCompatActivity() {
         else {
             //en caso de android viejo, quita el mapa para no crasheo
             btnMapa.visibility = View.GONE
-        }
+        }*/
 
         //endregion
     }
